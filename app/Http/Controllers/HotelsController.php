@@ -22,4 +22,9 @@ class HotelsController extends Controller
 
         return response()->json($hotel->getAllHotels($params), 200);
     }
+
+    public function index()
+    {
+        return view('hotels');
+    }
 }

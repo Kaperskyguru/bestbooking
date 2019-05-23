@@ -65,13 +65,13 @@
                             <li><a href="{{ route('flight-page') }}">Flights</a></li>
                             <li><a href="{{ route('car-page') }}">Cars</a></li>
                             <li><a href="{{ route('contact') }}">Contact</a></li>
-                            <li class="dropdown">
+                            {{-- <li class="dropdown">
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">Accounts<b class="lightcaret mt-2"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="{{route('register')}}">register</a></li>
                                     <li><a href="{{route('login')}}">Login</a></li>
                                 </ul>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                     <!-- /Navigation-->
