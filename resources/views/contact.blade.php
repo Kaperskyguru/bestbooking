@@ -13,9 +13,9 @@
  
 @section('content')
 
-<div id="dajy" class="mtslide sliderbg fixed cstyle11">
+{{-- <div id="dajy" class="mtslide sliderbg fixed cstyle11">
     <div id="map-canvas2"></div>
-</div>
+</div> --}}
 
 
 
@@ -81,7 +81,7 @@
     <script type='text/javascript' src="{{ asset('js/lightbox.js') }}"></script>
 
     <!-- Googlemap -->
-    <script src="{{ asset('assets/js/initialize-google-map-contact.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/initialize-google-map-contact.js') }}"></script> --}}
 
     <!-- bin/jquery.slider.min.js-->
     <script type="text/javascript" src="{{ asset('plugins/jslider/js/jshashtable-2.1_src.js') }}"></script>

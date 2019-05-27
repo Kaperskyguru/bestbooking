@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('body-style', 'thebg')
 @section('content')
+@section('footer-style', 'footerbgblack')
+@section('footer-style-2',
+'footerbg3black')
 
 <!--
 	#################################
@@ -70,7 +73,7 @@
 
     <div class="container mt-130 z-index100">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" style="background-color:white">
                 <script charset="utf-8" src="//www.travelpayouts.com/widgets/06e715a287ff5444fb024dca4b4e9dc0.js?v=1688"
                     async></script>
 
@@ -79,6 +82,38 @@
         </div>
     </div>
 
+    <div class="col-md-12 top-header">
+            <div class="container">
+                <div class="row">
+                    <h3 class="text-center">Why Choose Us</h3>
+                    <div class="col-md-6">
+                        <!-- <span class="dtitle">Last Minute</span> -->
+                        <div class="deal">
+                            <p>We find the best travel deals from multiple travel providers and you choose the one you prefer.</p>
+                        </div>
+                        <div class="deal">
+                            <p>Search and compare from over 70 travel providers with one easy search.</p>
+                        </div>
+                        <div class="deal">
+                            <p>We work with multiple providers so you can have a huge choice of destinations, promotions, and discounts.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="deal">
+                            <p>There are no extra charges or hidden fees. The price you see is exactly what you pay.</p>
+                        </div>
+                        <div class="deal">
+                            <p>We only allow trusted and proven travel providers to be included in our search engine.</p>
+                        </div>
+                        <div class="deal">
+                            <p>We search both the largest booking websites and small local systems ensuring you’ll find the lowest price.</p>
+                        </div>
+                    </div>
+                    <!-- End of first row-->
+                </div>
+            </div>
+
+    {{-- <div class="deals3"> --}}
     <div class="container">
         <h2 class="text-center">Best hotels around the world!</h2>
         <script async
@@ -87,14 +122,136 @@
     </div>
 
 
-    <div class="lastminute3">
-        <div class="container lmc">
-            <img src="{{ asset('images/rating-4.png') }}" alt="" /><br /> LAST MINUTE: <b>Barcelona</b> - 2 nights -
+    <div class=" container">
+        <div class="lmc">
+
+
+            <div class="row">
+                <div class="col-md-4" style="margin-top: -20px;">
+                    <!-- <span class="dtitle">Last Minute</span> -->
+                    <div class="deal">
+                        <img src="images/compass.png" alt="" class="mt-10" style="display:block;margin:0 auto;">
+                        <h4 class="text-center">Easy Navigation</h4>
+                        <!-- <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                <div class="dealtitle">
+                                    <p><a href="details.html" class="dark">Diana Hotel</a></p>
+                                    <img src="images/smallrating-4.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Zakynthos</span>
+                                </div>
+                                <div class="dealprice">
+                                    <p class="size12 grey lh2">from<span class="price">$35</span><br/>per night</p>
+                                </div> -->
+                    </div>
+                    <div class="deal" style="border:none;">
+                        <p>With our simple website, we make your travel booking very easy.</p>
+                        <!-- <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                <div class="dealtitle">
+                                    <p><a href="details.html" class="dark">Village Inn Studios & Family Apartments</a></p>
+                                    <img src="images/smallrating-3.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Zakynthos</span>
+                                </div>
+                                <div class="dealprice">
+                                    <p class="size12 grey lh2">from<span class="price">$49</span><br/>per night</p>
+                                </div> -->
+                    </div>
+                    <!-- <div class="deal">
+                                <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                <div class="dealtitle">
+                                    <p><a href="details.html" class="dark">Palatino Hotel</a></p>
+                                    <img src="images/smallrating-4.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Zakynthos</span>
+                                </div>
+                                <div class="dealprice">
+                                    <p class="size12 grey lh2">from<span class="price">$90</span><br/>per night</p>
+                                </div>
+                            </div> -->
+                </div>
+                <!-- End of first row-->
+
+                <div class="col-md-4" style="margin-top: -20px;">
+                    <!-- <span class="dtitle">Early Booking</span> -->
+                    <div class="deal">
+                        <img src="images/difference.png" alt="" class="mt-10" style="display:block;margin:0 auto;">
+                        <h4 class="text-center">Precise Searches</h4>
+                        <!-- <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                    <div class="dealtitle">
+                                        <p><a href="details.html" class="dark">Comfort Suites Paradise Island</a></p>
+                                        <img src="images/smallrating-4.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Bahamas</span>
+                                    </div>
+                                    <div class="dealprice">
+                                        <p class="size12 grey lh2">from<span class="price">$29</span><br/>per night</p>
+                                    </div> -->
+                    </div>
+                    <div class="deal" style="border:none;">
+                        <p>We narrow down your searches to what you really need, making it easy and simple to complete
+                            your travel booking.</p>
+                        <!-- <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                    <div class="dealtitle">
+                                        <p><a href="details.html" class="dark">Barcelo Malaga</a></p>
+                                        <img src="images/smallrating-3.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Spain</span>
+                                    </div>
+                                    <div class="dealprice">
+                                        <p class="size12 grey lh2">from<span class="price">$32</span><br/>per night</p>
+                                    </div> -->
+                    </div>
+                    <!-- <div class="deal">
+                                    <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                    <div class="dealtitle">
+                                        <p><a href="details.html" class="dark">Palatino Hotel</a></p>
+                                        <img src="images/smallrating-3.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Zakynthos</span>
+                                    </div>
+                                    <div class="dealprice">
+                                        <p class="size12 grey lh2">from<span class="price">$90</span><br/>per night</p>
+                                    </div>
+                                </div> -->
+                </div>
+                <!-- End of first row-->
+
+                <div class="col-md-4" style="margin-top: -20px;">
+                    <!-- <span class="dtitle">Hot Deals</span> -->
+                    <div class="deal">
+                        <img src="images/piggy-bank-with-dollar-coin.png" alt="" class="mt-10"
+                            style="display:block;margin:0 auto;">
+                        <h4 class="text-center">Save More</h4>
+                        <!-- <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                        <div class="dealtitle">
+                                            <p><a href="details.html" class="dark">Parayso Hotel And Spa</a></p>
+                                            <img src="images/smallrating-4.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Zakynthos</span>
+                                        </div>
+                                        <div class="dealprice">
+                                            <p class="size12 grey lh2">from<span class="price">$49</span><br/>per night</p>
+                                        </div> -->
+                    </div>
+                    <div class="deal" style="border:none;">
+                        <p>We also give you the best prices there is to help you spend less.</p>
+                        <!-- <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                        <div class="dealtitle">
+                                            <p><a href="details.html" class="dark">Village Inn Studios & Family Apartments</a></p>
+                                            <img src="images/smallrating-3.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Zakynthos</span>
+                                        </div>
+                                        <div class="dealprice">
+                                            <p class="size12 grey lh2">from<span class="price">$79</span><br/>per night</p>
+                                        </div> -->
+                    </div>
+                    <!-- <div class="deal">
+                                        <a href="details.html"><img src="images/thumb-img.jpg" alt="" class="dealthumb" /></a>
+                                        <div class="dealtitle">
+                                            <p><a href="details.html" class="dark">Diana Hotel</a></p>
+                                            <img src="images/smallrating-3.png" alt="" class="mt-10" /><span class="size13 grey mt-9">Zakynthos</span>
+                                        </div>
+                                        <div class="dealprice">
+                                            <p class="size12 grey lh2">from<span class="price">$299</span><br/>per night</p>
+                                        </div>
+                                    </div> -->
+                </div>
+                <!-- End of first row-->
+            </div>
+
+
+            {{-- <img src="{{ asset('images/rating-4.png') }}" alt="" /><br /> LAST MINUTE: <b>Barcelona</b> - 2 nights
+            -
             Flight+4*
             Hotel, Dep 27h Aug from $209/person<br />
             <form action="http://titanicthemes.com/travel/blue/{{ route('hotel-page') }}">
                 <button class="btn iosbtn" type="submit">Read more</button>
-            </form>
+            </form> --}}
         </div>
     </div>
 
@@ -118,66 +275,10 @@
             <div class="col-md-3">
                 <h2>Featured<br />Offers</h2><br /> Start your search with a look at the best rates on our site.
             </div>
-            <div class="col-md-9">
+            <script async
+                src="//www.travelpayouts.com/ducklett/scripts_en.js?widget_type=slider&currency=usd&host=flights.bestbooking.online%2Fflights&marker=217105.&limit=9&powered_by=false&origin_iatas=LOS&destination_iatas=PHC"
+                charset="UTF-8"></script>
 
-                <!-- Carousel -->
-                <div class="wrapper">
-                    <div class="list_carousel">
-                        <ul id="foo2">
-                            <li>
-                                <a href="list3.html"><img src="{{ asset('images/thumb-africa.jpg') }}" alt="" /></a>
-                                <div class="m1">
-                                    <h6 class="lh1 dark"><b>South Africa Adventures</b></h6>
-                                    <h6 class="lh1 green">Save up to 30%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="list3.html"><img src="{{ asset('images/thumb-egipt.jpg') }}" alt="" /></a>
-                                <div class="m1">
-                                    <h6 class="lh1 dark"><b>Egipt</b></h6>
-                                    <h6 class="lh1 green">Save up to 30%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="list3.html"><img src="{{ asset('images/thumb-machupicchu.jpg') }}"
-                                        alt="" /></a>
-                                <div class="m1">
-                                    <h6 class="lh1 dark"><b>Machu Picchu</b></h6>
-                                    <h6 class="lh1 green">Save up to 30%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="list3.html"><img src="{{ asset('images/thumb-africa.jpg') }}" alt="" /></a>
-                                <div class="m1">
-                                    <h6 class="lh1 dark"><b>South Africa Adventures</b></h6>
-                                    <h6 class="lh1 green">Save up to 30%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="list3.html"><img src="{{ asset('images/thumb-egipt.jpg') }}" alt="" /></a>
-                                <div class="m1">
-                                    <h6 class="lh1 dark"><b>Egipt</b></h6>
-                                    <h6 class="lh1 green">Save up to 30%</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <a href="list3.html"><img src="{{ asset('images/thumb-machupicchu.jpg') }}"
-                                        alt="" /></a>
-                                <div class="m1">
-                                    <h6 class="lh1 dark"><b>Machu Picchu</b></h6>
-                                    <h6 class="lh1 green">Save up to 30%</h6>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="clearfix"></div>
-                        <a id="prev_btn2" class="prev" href="#"><img src="{{ asset('images/spacer.png') }}"
-                                alt="" /></a>
-                        <a id="next_btn2" class="next" href="#"><img src="{{ asset('images/spacer.png') }}"
-                                alt="" /></a>
-                    </div>
-                </div>
-
-            </div>
         </div>
 
     </div>

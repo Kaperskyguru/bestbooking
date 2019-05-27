@@ -2294,12 +2294,12 @@ a:visited.booknow {
 }
 
 .lastminute3 {
-    /* height: 250px; */
+    height: 250px;
     width: 100%;
     background: #f2f2f2;
-    /* padding-top: 60px; */
+    padding-top: 60px;
     margin-bottom: 50px;
-    /* margin-top: 560px; */
+    margin-top: 560px;
     text-align: center;
     font-family: Lato;
     font-size: 24px;
@@ -2323,7 +2323,18 @@ a:visited.booknow {
 
 .lmcc {
     opacity: 0;
-    margin-top: 100px;
+    padding: 40px;
+}
+
+.lmc {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background: #f2f2f2;
+    padding: 40px;
+}
+
+.top-header {
+    margin-top: -109px;
 }
 
 .lcfix {
@@ -2363,7 +2374,7 @@ a:visited.booknow {
         overflow: hidden;
     }
     .lastminute3 {
-        height: 250px;
+        height: auto;
         width: 100%;
         background: #f2f2f2;
         padding-top: 90px;
@@ -2435,8 +2446,8 @@ a:visited.booknow {
 }
 
 .deal {
-    min-height: 78px;
-    padding: 13px 0 13px 0;
+    /* min-height: 78px; */
+    padding: 15px 0 15px 0;
     border-bottom: 1px solid #ececec;
     font-family: 'Lato';
     font-weight: 400;

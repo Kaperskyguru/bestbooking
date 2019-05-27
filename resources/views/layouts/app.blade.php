@@ -138,7 +138,7 @@
                 </div>
                 <br/><br/>
                 <span class="ftitle">Customer support</span><br/>
-                <span class="pnr">+234-807-053-8333</span><br/> office@travel.com
+                <span class="ftitle">support@bestbooking.online</span><br/>
             </div>
             <!-- End of column 4-->
         </div>
